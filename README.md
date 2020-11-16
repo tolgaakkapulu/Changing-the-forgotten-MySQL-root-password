@@ -1,0 +1,1 @@
+# MySQL-Changing-the-forgotten-root-password
