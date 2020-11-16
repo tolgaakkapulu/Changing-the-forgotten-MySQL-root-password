@@ -17,7 +17,6 @@
 <li>
   sudo mysql -u root
   </li>
-<li>
   <ul>
     <li>
       use mysql;
@@ -32,7 +31,7 @@
   exit;
   </li>
   </ul>
-  </li>
+  
 <li>
   sudo /etc/init.d/mysql stop
   </li>
