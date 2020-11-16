@@ -1,4 +1,4 @@
-# MySQL-Changing-the-forgotten-root-password
+# Changing the forgotten MySQL root password
 
 <b>The following commands are executed respectively:</b>
 - sudo systemctl stop mysql.service
