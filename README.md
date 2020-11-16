@@ -18,9 +18,11 @@
   sudo mysql -u root
   </li>
 <li>
-  use mysql;
-  </li>
-<li>
+  <ul>
+    <li>
+      use mysql;
+    </li>
+    <li>
   update user set authentication_string=PASSWORD("NEW_PASSWORD") where User='root';
   </li>
 <li>
@@ -28,6 +30,8 @@
   </li>
 <li>
   exit;
+  </li>
+  </ul>
   </li>
 <li>
   sudo /etc/init.d/mysql stop
