@@ -14,5 +14,5 @@
   - exit;
 - sudo systemctl stop mysql.service
 - sudo ps ax | grep mysql | grep grant | awk '{print "kill -9 " $1}' | bash
-- systemctl daemon-reload
+- sudo systemctl daemon-reload
 - sudo systemctl start mysql.service
