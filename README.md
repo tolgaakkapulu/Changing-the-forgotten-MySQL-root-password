@@ -9,7 +9,7 @@
   - use mysql;
   - update user set authentication_string=PASSWORD("NEW_PASSWORD") where User='root';
   - flush privileges;
-  - GRANT ALL PRIVILEGES ON *.* TO root@'%' IDENTIFIED BY 'NEW_PASSWORD';
+  - GRANT ALL PRIVILEGES ON \*.\* TO root@'%' IDENTIFIED BY 'NEW_PASSWORD';
   - flush privileges;
   - exit;
 - sudo systemctl stop mysql.service
